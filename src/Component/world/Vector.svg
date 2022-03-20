@@ -1,0 +1,9 @@
+<svg width="718" height="492" viewBox="0 0 718 492" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/2000/xlink">
+<defs>
+<clipPath id="hi">
+<path d="M14.4787 477.631C12.46 475.639 11.3509 472.967 11.3477 470.212V21.5558C11.3572 18.8036 12.4686 16.1376 14.486 14.1484C16.5096 12.1531 19.2812 11.0052 22.2018 11H695.771C698.692 11.0051 701.463 12.1531 703.487 14.1484C705.503 16.1358 706.614 18.7987 706.625 21.5483C706.625 21.5544 706.625 21.5606 706.625 21.5667L706.625 470.208C706.623 472.965 705.514 475.638 703.494 477.631C701.47 479.63 698.695 480.779 695.771 480.781H22.2022C19.2784 480.779 16.5033 479.63 14.4787 477.631Z" stroke="#3F3D56" stroke-width="22"/>
+</clipPath>
+</defs>
+<video width="640" height="360" id="player1" preload="none" clip-path="url(#hi)">
+    <source type="video/youtube" src="http://www.youtube.com/watch?v=nOEw9iiopwI" />
+</video></svg>

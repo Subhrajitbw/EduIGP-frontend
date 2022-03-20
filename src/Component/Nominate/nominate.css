@@ -1,0 +1,55 @@
+.trainers-image{
+    padding: 4%;
+    margin: 3%;
+    position: relative;
+}
+.trainer-image-flag{
+    width: 20%;
+    position: absolute;
+    top: 0;
+}
+.upper-head{
+background-color: #162374;
+height:50px;
+}
+.logo{
+width:150px;
+height:50px;
+}
+.category-button{
+width:100px;
+
+color:#162374;
+margin-top:-1px;
+}
+.lower-head{
+display:flex;
+}
+.menu-item{
+display:flex;
+}
+.nav-item{
+padding:10px;
+color:#4593D0;
+font-weight: bold;
+margin-bottom: 20px;
+
+}
+.search-area{
+border-bottom:2px solid #4593D0;
+border-top: 0;
+border-left: 0;
+border-right:0;
+border-radius: 0px;
+}
+.search-icon{
+color:#487CC1;
+}
+.service-viewmore-button{
+background-color: #487CC1;
+color: white;
+border-color: #487CC1;
+border-radius: 5px;
+font-weight: bold;
+font-size: 12px;
+}

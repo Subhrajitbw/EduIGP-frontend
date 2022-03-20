@@ -1,0 +1,520 @@
+.upper-head {
+    background-color: #162374;
+    height: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.category-button {
+    width: 100px;
+
+    color: #162374;
+    margin-top: -1px;
+}
+
+.lower-head {
+    display: flex;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.nav-item {
+    padding: 10px;
+    color: #4593D0;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.search-area {
+    border-bottom: 2px solid #4593D0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0px;
+}
+
+.search-icon {
+    color: #487CC1;
+}
+
+.image-trainer {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.trainer-name {
+    color: #162374;
+    font-weight: bold;
+}
+
+.des-trainer {
+    font-weight: normal;
+    font-size: 20px;
+    color: #487CC1;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+.text-trainer {
+
+    padding: 6%;
+}
+
+.deals {
+    background-color: #E42713;
+    color: white;
+    border-radius: 5px;
+}
+
+.fav-card {
+    padding: 3%;
+    background-color: #f6f6f8;
+}
+
+.btn-custom {
+    background-color: #E42713;
+    margin-top: 2px;
+    padding: 3% 10% 3% 10%;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.img-head {
+    padding: 3%;
+    background-color: white;
+    box-shadow: 0px 0px 2.86252px rgba(0, 0, 0, 0.25);
+    ;
+}
+
+.card-content {
+    padding: 3%;
+    margin-left: 4%;
+}
+
+.head-content {
+    padding: 5%;
+}
+
+.dropdown-button {
+    color: #E42713;
+    margin-left: 2%;
+}
+
+.dropdown-button:hover {
+    color: #E42713;
+
+}
+
+.tab-nav {
+    margin-top: 3%;
+}
+
+.left-menu {
+    color: black;
+
+}
+
+.nav>.active>a {
+    font-weight: bold;
+}
+
+
+
+.content-row {
+    padding: 2%;
+}
+
+.str {
+    padding: 2%;
+}
+
+
+/* .heading {
+margin-top: 10%;
+}*/
+
+.contentr {
+    border: 1px solid black;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.rcontent {
+    margin-top: 3%;
+}
+
+.stores-r-logo {
+    width: 80px;
+    padding: 2%;
+    margin: 3%;
+    margin-top: 5%;
+}
+
+.myn-logo {
+    margin-top: 15%;
+    width: 120px;
+}
+
+.percentage {
+    font-weight: bold;
+    color: #E42713;
+}
+
+.regular-p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.turbo {
+    background-color: purple;
+    color: white;
+}
+
+.store-corner {
+    padding: 5%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.rating {
+    font-size: 12px;
+}
+
+.checked {
+    color: orange;
+}
+
+.btn-shoplink {
+    background-color: #E42713;
+    color: white !important;
+    text-decoration: none;
+}
+
+.category-search {
+    padding: 5%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 8%;
+
+    font-weight: bold;
+}
+
+.cats {
+    padding: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+
+}
+
+.similar-stores {
+    padding: 5%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 8%;
+
+    font-weight: bold;
+}
+
+.similars {
+    padding: 1%;
+}
+
+.ads {
+    padding: 10% 5% 10%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 8%;
+
+    font-weight: bold;
+}
+
+.top-cat {
+    padding: 10% 5% 10%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 8%;
+    background-color: #f6f6f8;
+
+}
+
+.top-store {
+    padding: 10% 5% 10%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 8%;
+    background-color: #f6f6f8;
+
+}
+
+.filter-primary-top {
+    padding: 5px;
+}
+
+.storein-head {
+    padding: 2%;
+}
+
+.link-dl {
+    padding: 2%;
+    color: #E42713;
+    font-weight: bold;
+    margin-bottom: 10%;
+    font-size: 12px;
+}
+
+.storeup-to {
+    font-size: 10px;
+    padding: 0 10% 0 10%;
+}
+
+.cashback-t {
+    font-size: 10px;
+}
+
+.row1 {
+    margin-top: 2%;
+}
+
+.sort-al {
+    margin-left: 1px;
+    background-color: white;
+}
+
+.r-button {
+    background-color: white;
+    color: black;
+}
+
+.pagination,
+.jsgrid .jsgrid-pager {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem
+}
+
+.page-link {
+    color: black
+}
+
+.pagination.pagination-rounded-flat .page-item {
+    margin: 0 .25rem
+}
+
+.pro-card {
+    box-shadow: 0px 2px 5px #f6f6;
+}
+
+.pagination-success .page-item.active .page-link {
+    background: #00c514;
+    border-color: #00c514;
+}
+
+.pagination.pagination-rounded-flat .page-item .page-link {
+    border: none;
+    border-radius: 50px
+}
+
+.filter-items {
+    background-color: #eeeff1;
+}
+
+.filter-primary-top-drop {
+    margin-left: 3%;
+}
+
+.btn-drop {
+    background-color: #eeeff1;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.search-course {
+    border: white;
+}
+
+.course-back {
+    background-color: #162374;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.course-category {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.category-button {
+    width: 100px;
+    height: 100px;
+    color: #162374;
+    margin-top: -1px;
+}
+
+.course-card {
+    margin-top: 25px;
+    vertical-align: middle;
+}
+
+.course-card-deck {
+
+    margin: 20px 10px;
+
+}
+
+.title-card-deck-course {
+    color: #162374;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.class-date {
+    color: #162374;
+    font-weight: bold;
+}
+
+.enroll-button-free {
+    background-color: #162374;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.enroll-button-free:hover {
+    background-color: #162374;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.enroll-button-get {
+    background-color: #162374;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+.enroll-button-get:hover {
+    background-color: #162374;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+.trainer-heading {
+    color: #162374;
+}
+
+.footer {
+    margin-top: 20%;
+    background-color: #162374 !important;
+    color: white;
+    padding: 15px;
+    display: block !important
+}
+
+.logo-footer {
+    margin-top: 20px;
+}
+
+.nvtm {
+    margin-top: 2%;
+}
+
+.vote-nm {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5%;
+}
+
+.nm-vt {
+    font-size: 24px;
+    color: #487CC1;
+}
+
+.vn-button {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.vn-button:hover {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.progess-list {
+    padding: 2% 5% 2% 5%;
+}
+
+.prgs-list {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
