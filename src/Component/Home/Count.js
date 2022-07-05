@@ -9,7 +9,7 @@ function Count() {
     
     
   return (
-    <div class="counts d-flex justify-content-center text-center mt-5">
+    <div class="counts d-flex justify-content-center text-center mt-5 animated fadeIn">
     <ul class="nav text-center justify-content-center">
       <li class="nav-item me-2 px-4 count"><span id="trainers"></span><span><CountUp end={1000} />+ Trainers</span>
       </li>

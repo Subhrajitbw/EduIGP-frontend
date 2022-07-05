@@ -57,9 +57,22 @@ function App() {
           <Route exact path="/courses" element={<Courses />} />
           <Route exact path="/quizes" element={<Quizes />} />
         </Routes>
-        <ClientSlider className="c-slider" />
-        <AccSlider />
-        <PartnerSlider />
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-4">
+              <ClientSlider className="c-slider" />
+            </div>
+            <div className="col-md-4">
+              <AccSlider />
+            </div>
+            <div className="col-md-4">
+              <PartnerSlider />
+            </div>
+          </div>
+        </div>
+
+
+
         <Footer />
       </Router>
     </div>

@@ -8,6 +8,7 @@ import * as THREE from 'three';
 import Offers from "./Offers";
 import Notice from "./Notice";
 import Count from "./Count";
+import Tab from "./Tab";
 
 function Home() {
   const [top, setTop] = useState("");
@@ -29,23 +30,24 @@ function Home() {
       <Count />
       {/*<!--Notice Section-->*/}
       <div class="container text-center mt-1">
-        
+
         <div id="video-laptop" >
           <img class="img-fluid" src={require("../world/human.png")} alt="" />
           <iframe width="542" height="315" src="https://www.youtube.com/embed/29lK_8OHmx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <Notice />
-
-      
+      <div class="wow fadeInUpBig">
+        <Tab />
+      </div>
 
       {/*<!--Our Services-->*/}
-      <div id="service">
+      <div id="service" class="wow fadeInLeftBig">
         <Services />
       </div>
       {/*<!--Our Offers-->*/}
 
-      <div id="offers">
+      <div id="offers" class="wow fadeInRightBig">
         <Offers />
         <div className="container text-center our-services">
           <Link className="btn btn-primary services-button" to="#" role="button">

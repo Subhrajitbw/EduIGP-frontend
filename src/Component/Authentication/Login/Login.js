@@ -6,6 +6,7 @@ import "./login.css";
 function Login() {
   const [email,setEmail]=useState('')
   const [password,setPassword]=useState('')
+  const a = "123456";
   //const history = useNavigate();
   const loginHandler= async (e)=>{
     e.preventDefault()
@@ -16,7 +17,7 @@ function Login() {
           "Content-Type": "application/json",
         },
       };  
-    const {data}= await axios.post('http://127.0.0.1:8080/user/login',
+    const {data}= await axios.post(`http://127.0.0.1:8080/user/login`,
     {
           email,
           password,
